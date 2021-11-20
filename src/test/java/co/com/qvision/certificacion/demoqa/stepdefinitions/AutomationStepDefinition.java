@@ -26,7 +26,7 @@ public class AutomationStepDefinition {
 
     @Dado("que el usuario ingresa a la pagina Demo")
     public void queElUsuarioIngresaALaPaginaDemo() {
-        theActorInTheSpotlight().attemptsTo(Open.url(""));
+        theActorInTheSpotlight().attemptsTo(Open.url("http://www.google.com"));
 
     }
     @Cuando("Llenar el formulario vacio")
